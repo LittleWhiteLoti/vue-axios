@@ -1,7 +1,7 @@
 {
   "name": "@littlewhiteloti/vue-axios",
   "version": "0.1.0",
-  "description": "A small wrapper for integrating axios to Vuejs",
+  "description": "Changing this.axios to this.$axios to follow convention of custom modules",
   "main": "dist/vue-axios.es5.js",
   "types": "index.d.ts",
   "scripts": {
@@ -15,19 +15,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imcvampire/vue-axios.git"
+    "url": "git+https://github.com/LittleWhiteLoti/vue-axios#readme"
   },
   "keywords": [
     "vue",
     "axios",
     "wrapper"
   ],
-  "author": "Nguyen Quoc Anh (imcvampire)",
+  "author": "Nguyen Quoc Anh (imcvampire) => LittleWhiteLoti (littlewhiteloti)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/imcvampire/vue-axios/issues"
-  },
-  "homepage": "https://github.com/imcvampire/vue-axios#readme",
+  "homepage": "https://github.com/LittleWhiteLoti/vue-axios#readme",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
@@ -52,6 +49,6 @@
   },
   "peerDependencies": {
     "axios": ">= 0.20.0",
-    "vue": "^ 3.0.0 || ^ 2.0.0"
+    "vue": "^3.0.0"
   }
 }
