@@ -40,11 +40,11 @@ This wrapper bind `axios` to `Vue` or `this` if you're using single file compone
 
 You can use `axios` like this:
 ```js
-Vue.axios.get(api).then((response) => {
+Vue.$axios.get(api).then((response) => {
   console.log(response.data)
 })
 
-this.axios.get(api).then((response) => {
+this.$axios.get(api).then((response) => {
   console.log(response.data)
 })
 
