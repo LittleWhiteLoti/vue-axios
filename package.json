@@ -2,13 +2,14 @@
   "name": "@littlewhiteloti/vue-axios",
   "version": "0.0.1",
   "description": "Changing this.axios to this.$axios to follow convention of custom modules",
-  "main": "./vue-axios.js",
+  "main": "vue-axios.js",
   "scripts": {
     "build": "gulp"
   },
   "typing": "index.d.ts",
   "files": [
-    "dist",
+    "dist/",
+    "src/",
     "index.d.ts"
   ],
   "repository": {
