@@ -1,9 +1,8 @@
 {
   "name": "@littlewhiteloti/vue-axios",
-  "version": "0.1.1",
+  "version": "0.0.1",
   "description": "Changing this.axios to this.$axios to follow convention of custom modules",
-  "main": "dist/vue-axios.es5.js",
-  "types": "index.d.ts",
+  "main": "dist/vue-axios.min.js",
   "scripts": {
     "build": "gulp"
   },
@@ -26,14 +25,14 @@
   "license": "MIT",
   "homepage": "https://github.com/LittleWhiteLoti/vue-axios#readme",
   "dependencies": {
-    "core-js": "^3.11.0"
+    "core-js": "^3.11.0",
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "@rollup/plugin-commonjs": "^15.1.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
-    "axios": "^0.21.1",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
     "gulp-file": "^0.4.0",
@@ -51,7 +50,7 @@
     "vue": "^3.0.0"
   },
   "peerDependencies": {
-    "axios": ">= 0.20.0",
+    "axios": "^0.21.1",
     "vue": "^3.0.0"
   },
   "bugs": {
