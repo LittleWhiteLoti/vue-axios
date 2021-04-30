@@ -1,6 +1,6 @@
 {
   "name": "@littlewhiteloti/vue-axios",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Changing this.axios to this.$axios to follow convention of custom modules",
   "main": "dist/vue-axios.es5.js",
   "types": "index.d.ts",
@@ -15,16 +15,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LittleWhiteLoti/vue-axios#readme"
+    "url": "git+https://github.com/LittleWhiteLoti/vue-axios.git#readme"
   },
   "keywords": [
     "vue",
     "axios",
     "wrapper"
   ],
-  "author": "Nguyen Quoc Anh (imcvampire) => LittleWhiteLoti (littlewhiteloti)",
+  "author": "Nguyen Quoc Anh (imcvampire) => LitteWhiteLoti (littlewhiteloti)",
   "license": "MIT",
   "homepage": "https://github.com/LittleWhiteLoti/vue-axios#readme",
+  "dependencies": {
+    "core-js": "^3.11.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
@@ -50,5 +53,8 @@
   "peerDependencies": {
     "axios": ">= 0.20.0",
     "vue": "^3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/LittleWhiteLoti/vue-axios/issues"
   }
 }
