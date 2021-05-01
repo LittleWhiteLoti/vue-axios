@@ -8,8 +8,8 @@
   },
   "typing": "index.d.ts",
   "files": [
-    "dist",
-    "src",
+    "dist/",
+    "src/",
     "index.d.ts"
   ],
   "repository": {
