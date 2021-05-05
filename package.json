@@ -6,7 +6,7 @@
   "scripts": {
     "build": "gulp"
   },
-  "typing": "index.d.ts",
+  "types": "index.d.ts",
   "files": [
     "dist/",
     "src/",
@@ -21,7 +21,7 @@
     "axios",
     "wrapper"
   ],
-  "author": "Nguyen Quoc Anh (imcvampire) => LitteWhiteLoti (littlewhiteloti)",
+  "author": "LitteWhiteLoti (littlewhiteloti)",
   "license": "MIT",
   "homepage": "https://github.com/LittleWhiteLoti/vue-axios#readme",
   "dependencies": {
