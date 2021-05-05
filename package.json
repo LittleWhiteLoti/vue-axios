@@ -8,8 +8,8 @@
   },
   "types": "index.d.ts",
   "files": [
-    "dist/",
-    "src/",
+    "dist",
+    "src",
     "index.d.ts"
   ],
   "repository": {
@@ -51,7 +51,7 @@
   },
   "peerDependencies": {
     "axios": "^0.21.1",
-    "vue": "^3.0.0"
+    "vue": "^2.6.10"
   },
   "bugs": {
     "url": "https://github.com/LittleWhiteLoti/vue-axios/issues"
