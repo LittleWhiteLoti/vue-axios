@@ -51,7 +51,7 @@
   },
   "peerDependencies": {
     "axios": "^0.21.1",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10 || ^3.0.0"
   },
   "bugs": {
     "url": "https://github.com/LittleWhiteLoti/vue-axios/issues"
