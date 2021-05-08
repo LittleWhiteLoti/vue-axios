@@ -5,18 +5,18 @@ import { App } from "vue";
 declare module "@vue/runtime-core" {
   export interface ComponentCustomProperties {
     $http: AxiosStatic;
-    $axios: AxiosStatic;
+    axios: AxiosStatic;
   }
 
   export interface App {
-    $axios: AxiosStatic;
+    axios: AxiosStatic;
   }
 }
 
 declare module 'vue/types/vue' {
   interface Vue {
     $http: AxiosStatic;
-    $axios: AxiosStatic;
+    axios: AxiosStatic;
   }
 
   interface VueConstructor {
@@ -24,6 +24,6 @@ declare module 'vue/types/vue' {
   }
 }
 
-declare function VueAxios(app: App, $axios: AxiosStatic): void;
+declare function VueAxios(app: App, axios: AxiosStatic): void;
 
 export default VueAxios;

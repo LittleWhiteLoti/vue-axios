@@ -27,7 +27,7 @@ function plugin(app, axios) {
   if (semver.lt(app.version, '3.0.0')) {
     Object.defineProperties(app.prototype, {
 
-      $axios: {
+      axios: {
         get: function get() {
           return axios;
         }
@@ -45,7 +45,7 @@ function plugin(app, axios) {
     app.config.globalProperties.$http = axios;
   }
 
-  app.$axios = axios;
+  app.axios = axios;
   app.$http = axios;
 }
 

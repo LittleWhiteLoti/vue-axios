@@ -1,6 +1,6 @@
 {
   "name": "@littlewhiteloti/vue-axios",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "Changing this.axios to this.$axios to follow convention of custom modules",
   "main": "dist/vue-axios.es5.js",
   "scripts": {
